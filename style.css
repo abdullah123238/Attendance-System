@@ -101,20 +101,7 @@ button:hover{
 }
 
 @media (max-width: 1024px) {
-    .container {
-        width: 80%;
-    }
-
-    input, button {
-        width: 80%;
-        padding: 8px;
-        font-size: 14px;
-    }
-
-    .buttons {
-        flex-direction: column;
-        gap: 10px;
-    }
+   
 
     table {
         width: 100%;
@@ -122,20 +109,7 @@ button:hover{
 }
 
 @media (max-width: 768px) {
-    .container {
-        width: 90%;
-        padding: 15px;
-    }
-
-    input, button {
-        width: 100%;
-        padding: 6px;
-        font-size: 13px;
-    }
-
-    .clearButton {
-        width: 100%;
-    }
+   
 
     .tbbb {
         width: 100%;
@@ -158,15 +132,7 @@ button:hover{
         padding: 10px;
     }
 
-    input, button {
-        width: 100%;
-        padding: 5px;
-        font-size: 12px;
-    }
-
-    button, .clearButton {
-        width: 100%;
-    }
+    
 
     th, td {
         font-size: 12px;

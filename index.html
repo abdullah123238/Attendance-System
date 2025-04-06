@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Attendance System</h1>
+
+        <!-- Input Section -->
+        <input type="text" id="student-name" placeholder="Enter Student Name">
+        <input type="date" id="attendance-date">
+        <input type="time" id="attendance-time">
+    <div class="buttons">
+        <button onclick="markAttendance()">Mark Attendance</button>
+        <button onclick="exportAttendance()">Export 📤</button>
+    </div>
+
+        <!-- Attendance Table -->
+        <table class="tbbb">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="attendance-list"></tbody>
+        </table>
+
+        <button class="clearButton" onclick="clearAttendance()">Clear All</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
